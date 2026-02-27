@@ -1,43 +1,33 @@
 body {
     background-color: #1a1b1e;
-    color: #ffffff;
-    font-family: Arial, sans-serif;
-    padding: 20px;
+    color: #e0e0e0;
+    font-family: sans-serif;
+    padding: 30px;
+    line-height: 1.5;
 }
 
 h1, h2 { color: #58a6ff; text-align: center; }
 
-/* ПІДСТОРІНКИ - КНОПКИ (як на фото) */
-ul {
-    list-style: none;
-    padding: 0;
-}
-
+/* ПІДСТОРІНКИ - КНОПКИ */
 ul li {
     background: #2d2d2d;
     border: 1px solid #444;
-    border-radius: 10px;
+    border-radius: 8px;
     margin: 10px 0;
+    list-style: none;
 }
 
 ul li a {
     display: block;
     padding: 15px;
-    color: #ffffff;
+    color: #b39ddb;
     text-decoration: none;
-    text-align: center;
-    font-weight: bold;
 }
 
-/* ВІДЕО (маленький формат) */
-iframe {
-    width: 450px;
-    height: 250px;
-    display: block;
-    margin: 20px auto;
-    border-radius: 10px;
-}
+/* ОСНОВНІ ТЕМИ - ПРОСТО ТЕКСТ (НЕ КНОПКИ) */
+nav { border-top: 1px solid #444; margin-top: 30px; }
+nav p { margin: 10px 0; font-size: 1.1em; }
+nav a { color: #58a6ff; text-decoration: none; font-weight: bold; }
+nav a:hover { text-decoration: underline; }
 
-hr { border: 1px solid #333; margin: 40px 0; }
-
-.footer { text-align: center; margin-top: 40px; color: #888; }
+iframe { width: 100%; border-radius: 10px; margin: 20px 0; }
