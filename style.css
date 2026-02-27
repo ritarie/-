@@ -1,29 +1,25 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
-    background-color: #f4f4f4;
-    line-height: 1.6;
-}
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Кібербезпека</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Кібербезпека</h1>
+    <p>Вітаю! Це мій сайт про те, як залишатися в безпеці у цифровому світі.</p>
+    
+    <nav>
+        <h3>Меню сайту:</h3>
+        <ul>
+            <li><a href="cyberthreats.html">Дізнатися про кіберзагрози</a></li>
+            <li><a href="protection.html">Як захистити себе</a></li>
+            <li><a href="history.html">Історія безпеки</a></li>
+        </ul>
+    </nav>
 
-h1, h2 {
-    color: #003366;
-}
-
-a {
-    color: blue;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-.main-image {
-    max-width: 100%;
-    height: auto;
-}
-
-iframe {
-    display: block;
-    margin: 20px 0;
-}
+    <div class="footer">
+        <p>Автор: Маргарита Харченко</p>
+    </div>
+</body>
+</html>
