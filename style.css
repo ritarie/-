@@ -5,13 +5,19 @@ body {
     padding: 20px;
 }
 
-/* КНОПКИ для Підсторінок та Посилань (як на фото) */
+h1, h2 { color: #58a6ff; text-align: center; }
+
+/* ПІДСТОРІНКИ - КНОПКИ (як на фото) */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
 ul li {
     background: #2d2d2d;
     border: 1px solid #444;
     border-radius: 10px;
     margin: 10px 0;
-    list-style: none;
 }
 
 ul li a {
@@ -23,31 +29,15 @@ ul li a {
     font-weight: bold;
 }
 
-/* ВІДЕО (маленький формат, як ти просила) */
+/* ВІДЕО (маленький формат) */
 iframe {
-    width: 400px; 
-    height: 225px;
+    width: 450px;
+    height: 250px;
     display: block;
     margin: 20px auto;
-    border-radius: 8px;
+    border-radius: 10px;
 }
 
-/* ОСНОВНІ ТЕМИ (робимо ПРОСТО ТЕКСТОМ/СТОРІНКАМИ) */
-.topics-list li {
-    background: none !important;
-    border: none !important;
-    padding: 5px 0 !important;
-    text-align: left !important;
-}
+hr { border: 1px solid #333; margin: 40px 0; }
 
-.topics-list li a {
-    display: inline !important;
-    padding: 0 !important;
-    color: #58a6ff !important;
-    font-weight: normal !important;
-    text-decoration: none !important;
-}
-
-.topics-list li a:hover {
-    text-decoration: underline !important;
-}
+.footer { text-align: center; margin-top: 40px; color: #888; }
