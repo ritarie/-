@@ -1,68 +1,48 @@
+/* Базові налаштування */
 body {
-    font-family: 'Segoe UI', Arial, sans-serif;
-    background-color: #0d1117; /* Темний фон */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0d1117;
     color: #c9d1d9;
-    max-width: 800px;
+    max-width: 850px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 30px;
 }
 
-/* ОСНОВНІ ТЕМИ (внизу) - просто текст */
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-nav li {
-    margin: 10px 0;
-    border: none !important;
-    background: none !important;
-}
-
-nav a {
+h1, h2 {
     color: #58a6ff;
-    text-decoration: none;
-    font-size: 1.1em;
+    text-align: center;
 }
 
-nav a:hover {
-    text-decoration: underline;
-}
-
-/* ПІДСТОРІНКИ - залишаємо КНОПКАМИ */
-/* Це блоки, які у тебе в коді йдуть під заголовком <h2>Підсторінки</h2> */
+/* --- ПІДСТОРІНКИ (ТВОЇ КНОПКИ) --- */
+/* Стиль для всіх списків, які НЕ знаходяться в меню nav */
 ul:not(nav ul) {
     list-style: none;
     padding: 0;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 12px;
 }
 
 ul:not(nav ul) li {
     background: #161b22;
     border: 1px solid #30363d;
-    border-radius: 8px;
+    border-radius: 12px;
     transition: 0.3s;
 }
 
 ul:not(nav ul) li:hover {
     background: #21262d;
     border-color: #58a6ff;
+    transform: translateY(-2px);
 }
 
 ul:not(nav ul) li a {
     display: block;
-    padding: 15px;
+    padding: 18px;
     color: #ffffff;
     text-decoration: none;
-    font-weight: bold;
     text-align: center;
+    font-weight: bold;
 }
 
-/* Відео та картинки */
-iframe, .main-image {
-    width: 100%;
-    border-radius: 12px;
-    margin: 20px 0;
-}
+/* --- ОСНОВНІ ТЕМИ (ПРОСТО СТОРІНКИ/ТЕКСТ) ---
