@@ -1,14 +1,21 @@
 body {
     background-color: #1a1b1e;
-    color: #e0e0e0;
-    font-family: sans-serif;
-    padding: 30px;
-    line-height: 1.5;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    padding: 40px;
+    line-height: 1.8;
 }
 
-h1, h2 { color: #58a6ff; text-align: center; }
+section {
+    margin-bottom: 60px; /* Відступ між темами */
+    padding: 20px;
+    border-left: 4px solid #58a6ff; /* Синя лінія збоку для виділення теми */
+}
 
-/* ПІДСТОРІНКИ - КНОПКИ */
+h1 { color: #58a6ff; font-size: 2.5em; text-align: left; }
+h2 { color: #b39ddb; margin-top: 30px; }
+
+/* Твої кнопки-підсторінки всередині кожної теми */
 ul li {
     background: #2d2d2d;
     border: 1px solid #444;
@@ -20,14 +27,9 @@ ul li {
 ul li a {
     display: block;
     padding: 15px;
-    color: #b39ddb;
+    color: #ffffff;
     text-decoration: none;
 }
 
-/* ОСНОВНІ ТЕМИ - ПРОСТО ТЕКСТ (НЕ КНОПКИ) */
-nav { border-top: 1px solid #444; margin-top: 30px; }
-nav p { margin: 10px 0; font-size: 1.1em; }
-nav a { color: #58a6ff; text-decoration: none; font-weight: bold; }
-nav a:hover { text-decoration: underline; }
-
-iframe { width: 100%; border-radius: 10px; margin: 20px 0; }
+iframe { width: 100%; border-radius: 12px; margin: 20px 0; }
+hr { border: 1px solid #333; margin: 40px 0; }
