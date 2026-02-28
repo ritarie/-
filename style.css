@@ -71,3 +71,31 @@ hr {
     font-size: 0.9em;
     color: #8b949e;
 }
+
+/* ... ваш існуючий код ... */
+
+.footer {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 0.9em;
+    color: #8b949e;
+}
+
+/* Новий код для адаптивних відео */
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* Це робить контейнер пропорційним 16:9 */
+    height: 0;
+    overflow: hidden;
+    margin: 20px 0;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+}
