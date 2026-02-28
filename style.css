@@ -25,6 +25,15 @@ iframe {
     border: none;
 }
 
+.main-image {
+    width: 100%;
+    height: 400px;        /* Точно такий же розмір, як у iframe */
+    object-fit: cover;    /* Головний секрет: картинка заповнить блок без спотворень */
+    border-radius: 12px;  /* Такий же заокруглений кут */
+    margin: 20px 0;       /* Такий же відступ, як у відео */
+    display: block;
+}
+
 ul {
     list-style: none;
     padding: 0;
